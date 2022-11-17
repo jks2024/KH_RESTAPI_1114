@@ -1,11 +1,2 @@
-package com.kh.RestApi.service;
-import org.springframework.stereotype.Service;
-
-@Service
-public class MemberService {
-
-    public MemberService() {
-
-    }
-
+package com.kh.RestApi.service;public class MemberService {
 }
