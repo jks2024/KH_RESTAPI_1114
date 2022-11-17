@@ -38,9 +38,16 @@ public class MemberController {
         }
     }
 
-//    @PostMapping("MemberCheck")
-//    public ResponseEntity<Map<String, String>> memberCheck(@RequestBody Map<String, String> chkData) {
-//    }
+    @PostMapping("MemberCheck")
+    public ResponseEntity<Boolean> memberCheck(@RequestBody Map<String, String> chkData) {
+        String getUserId = chkData.get("user");
+        boolean result = memberService.checkMember(getUserId);
+        if(result) {
+            return new ResponseEntity<>(true, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(true, HttpStatus.BAD_REQUEST);
+        }
+    }
 
     // 회원 가입
     @PostMapping("/RegMember")
@@ -56,5 +63,4 @@ public class MemberController {
             return new ResponseEntity(false, HttpStatus.BAD_REQUEST);
         }
     }
-
 }

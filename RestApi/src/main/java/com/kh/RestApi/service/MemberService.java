@@ -54,4 +54,12 @@ public class MemberService {
         log.warn(rst.toString());
         return true;
     }
+    // 가입 여부 체크
+    public boolean checkMember(String userId) {
+        List<MemberInfo> memberInfoList = memberRepository.findByUserId(userId);
+        for(MemberInfo info : memberInfoList) {
+            return false; // 가입된 회원이므로 false;
+        }
+        return true;
+    }
 }
