@@ -4062,3 +4062,458 @@ Caused by: java.lang.ClassNotFoundException: com.kh.RestApi.service.MemberServic
 [2022-11-17 18:23:00.722] [INFO ] [Thread-56] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
 [2022-11-17 18:23:00.722] [INFO ] [Thread-56] com.zaxxer.hikari.HikariDataSource HikariPool-11 - Shutdown initiated...
 [2022-11-17 18:23:00.726] [INFO ] [Thread-56] com.zaxxer.hikari.HikariDataSource HikariPool-11 - Shutdown completed.
+[2022-11-17 18:23:00.782] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Starting RestApiApplication using Java 11.0.16.1 on DESKTOP-O08JD9T with PID 17036 (D:\Backend\RestApi_1114\RestApi\target\classes started by user1 in D:\Backend\RestApi_1114)
+[2022-11-17 18:23:00.782] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 18:23:00.881] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 18:23:00.885] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+[2022-11-17 18:23:00.929] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8111 (http)
+[2022-11-17 18:23:00.929] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:23:00.929] [INFO ] [restartedMain] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2022-11-17 18:23:00.929] [INFO ] [restartedMain] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-17 18:23:00.939] [INFO ] [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2022-11-17 18:23:00.939] [INFO ] [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 156 ms
+[2022-11-17 18:23:00.956] [INFO ] [restartedMain] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 18:23:00.958] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-12 - Starting...
+[2022-11-17 18:23:00.958] [WARN ] [restartedMain] com.zaxxer.hikari.util.DriverDataSource Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[2022-11-17 18:23:00.969] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-12 - Start completed.
+[2022-11-17 18:23:00.969] [INFO ] [restartedMain] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[2022-11-17 18:23:01.088] [INFO ] [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 18:23:01.089] [INFO ] [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:23:01.168] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-17 18:23:01.202] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-11-17 18:23:01.217] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+[2022-11-17 18:23:01.223] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:23:01.224] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8111 (http) with context path ''
+[2022-11-17 18:23:01.227] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Started RestApiApplication in 0.459 seconds (JVM running for 2609.541)
+[2022-11-17 18:23:01.228] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+[2022-11-17 18:30:58.397] [INFO ] [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[2022-11-17 18:30:58.421] [INFO ] [Thread-61] org.apache.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:30:58.421] [INFO ] [Thread-61] org.apache.catalina.core.StandardService Stopping service [Tomcat]
+[2022-11-17 18:30:58.424] [INFO ] [Thread-61] org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:30:58.426] [INFO ] [Thread-61] org.apache.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:30:58.428] [INFO ] [Thread-61] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:30:58.428] [INFO ] [Thread-61] com.zaxxer.hikari.HikariDataSource HikariPool-12 - Shutdown initiated...
+[2022-11-17 18:30:58.437] [INFO ] [Thread-61] com.zaxxer.hikari.HikariDataSource HikariPool-12 - Shutdown completed.
+[2022-11-17 18:30:58.497] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Starting RestApiApplication using Java 11.0.16.1 on DESKTOP-O08JD9T with PID 17036 (D:\Backend\RestApi_1114\RestApi\target\classes started by user1 in D:\Backend\RestApi_1114)
+[2022-11-17 18:30:58.497] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 18:30:58.617] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 18:30:58.622] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+[2022-11-17 18:30:58.669] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8111 (http)
+[2022-11-17 18:30:58.669] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:30:58.669] [INFO ] [restartedMain] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2022-11-17 18:30:58.669] [INFO ] [restartedMain] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-17 18:30:58.679] [INFO ] [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2022-11-17 18:30:58.679] [INFO ] [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 181 ms
+[2022-11-17 18:30:58.697] [INFO ] [restartedMain] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 18:30:58.699] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-13 - Starting...
+[2022-11-17 18:30:58.699] [WARN ] [restartedMain] com.zaxxer.hikari.util.DriverDataSource Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[2022-11-17 18:30:58.728] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-13 - Start completed.
+[2022-11-17 18:30:58.728] [INFO ] [restartedMain] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[2022-11-17 18:30:58.828] [INFO ] [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 18:30:58.828] [INFO ] [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:30:58.866] [WARN ] [restartedMain] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberController': Resolution of declared constructors on bean Class [com.kh.RestApi.controller.MemberController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3e02d0e4] failed; nested exception is java.lang.NoClassDefFoundError: com/kh/RestApi/service/MemberService
+[2022-11-17 18:30:58.866] [INFO ] [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:30:58.867] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-13 - Shutdown initiated...
+[2022-11-17 18:30:58.871] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-13 - Shutdown completed.
+[2022-11-17 18:30:58.871] [INFO ] [restartedMain] org.apache.catalina.core.StandardService Stopping service [Tomcat]
+[2022-11-17 18:30:58.875] [INFO ] [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2022-11-17 18:30:58.877] [ERROR] [restartedMain] org.springframework.boot.SpringApplication Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberController': Resolution of declared constructors on bean Class [com.kh.RestApi.controller.MemberController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3e02d0e4] failed; nested exception is java.lang.NoClassDefFoundError: com/kh/RestApi/service/MemberService
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:309)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.kh.RestApi.RestApiApplication.main(RestApiApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NoClassDefFoundError: com/kh/RestApi/service/MemberService
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3137)
+	at java.base/java.lang.Class.getDeclaredConstructors(Class.java:2357)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:304)
+	... 23 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.kh.RestApi.service.MemberService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 27 common frames omitted
+[2022-11-17 18:31:01.333] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Starting RestApiApplication using Java 11.0.16.1 on DESKTOP-O08JD9T with PID 17036 (D:\Backend\RestApi_1114\RestApi\target\classes started by user1 in D:\Backend\RestApi_1114)
+[2022-11-17 18:31:01.333] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 18:31:01.424] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 18:31:01.430] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 5 ms. Found 2 JPA repository interfaces.
+[2022-11-17 18:31:01.474] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8111 (http)
+[2022-11-17 18:31:01.474] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:31:01.474] [INFO ] [restartedMain] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2022-11-17 18:31:01.474] [INFO ] [restartedMain] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-17 18:31:01.484] [INFO ] [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat-3].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2022-11-17 18:31:01.484] [INFO ] [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 150 ms
+[2022-11-17 18:31:01.501] [INFO ] [restartedMain] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 18:31:01.505] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-14 - Starting...
+[2022-11-17 18:31:01.505] [WARN ] [restartedMain] com.zaxxer.hikari.util.DriverDataSource Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[2022-11-17 18:31:01.515] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-14 - Start completed.
+[2022-11-17 18:31:01.516] [INFO ] [restartedMain] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[2022-11-17 18:31:01.581] [INFO ] [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 18:31:01.581] [INFO ] [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:31:01.633] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-17 18:31:01.670] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-11-17 18:31:01.686] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+[2022-11-17 18:31:01.691] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:31:01.692] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8111 (http) with context path ''
+[2022-11-17 18:31:01.695] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Started RestApiApplication in 0.378 seconds (JVM running for 3090.008)
+[2022-11-17 18:31:01.697] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+[2022-11-17 18:31:17.329] [INFO ] [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[2022-11-17 18:31:17.359] [INFO ] [Thread-66] org.apache.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:31:17.359] [INFO ] [Thread-66] org.apache.catalina.core.StandardService Stopping service [Tomcat]
+[2022-11-17 18:31:17.362] [INFO ] [Thread-66] org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:31:17.363] [INFO ] [Thread-66] org.apache.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:31:17.364] [INFO ] [Thread-66] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:31:17.365] [INFO ] [Thread-66] com.zaxxer.hikari.HikariDataSource HikariPool-14 - Shutdown initiated...
+[2022-11-17 18:31:17.368] [INFO ] [Thread-66] com.zaxxer.hikari.HikariDataSource HikariPool-14 - Shutdown completed.
+[2022-11-17 18:31:17.417] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Starting RestApiApplication using Java 11.0.16.1 on DESKTOP-O08JD9T with PID 17036 (D:\Backend\RestApi_1114\RestApi\target\classes started by user1 in D:\Backend\RestApi_1114)
+[2022-11-17 18:31:17.417] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 18:31:17.510] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 18:31:17.515] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 5 ms. Found 2 JPA repository interfaces.
+[2022-11-17 18:31:17.560] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8111 (http)
+[2022-11-17 18:31:17.561] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:31:17.561] [INFO ] [restartedMain] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2022-11-17 18:31:17.561] [INFO ] [restartedMain] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-17 18:31:17.571] [INFO ] [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat-3].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2022-11-17 18:31:17.571] [INFO ] [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 153 ms
+[2022-11-17 18:31:17.593] [INFO ] [restartedMain] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 18:31:17.596] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-15 - Starting...
+[2022-11-17 18:31:17.596] [WARN ] [restartedMain] com.zaxxer.hikari.util.DriverDataSource Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[2022-11-17 18:31:17.605] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-15 - Start completed.
+[2022-11-17 18:31:17.605] [INFO ] [restartedMain] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[2022-11-17 18:31:17.743] [INFO ] [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 18:31:17.743] [INFO ] [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:31:17.781] [WARN ] [restartedMain] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController' defined in file [D:\Backend\RestApi_1114\RestApi\target\classes\com\kh\RestApi\controller\MemberController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.kh.RestApi.service.MemberService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2022-11-17 18:31:17.781] [INFO ] [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:31:17.782] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-15 - Shutdown initiated...
+[2022-11-17 18:31:17.788] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-15 - Shutdown completed.
+[2022-11-17 18:31:17.788] [INFO ] [restartedMain] org.apache.catalina.core.StandardService Stopping service [Tomcat]
+[2022-11-17 18:31:17.792] [INFO ] [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2022-11-17 18:31:17.797] [ERROR] [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.kh.RestApi.controller.MemberController required a bean of type 'com.kh.RestApi.service.MemberService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.kh.RestApi.service.MemberService' in your configuration.
+
+[2022-11-17 18:31:19.237] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Starting RestApiApplication using Java 11.0.16.1 on DESKTOP-O08JD9T with PID 17036 (D:\Backend\RestApi_1114\RestApi\target\classes started by user1 in D:\Backend\RestApi_1114)
+[2022-11-17 18:31:19.237] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 18:31:19.330] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 18:31:19.335] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+[2022-11-17 18:31:19.386] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8111 (http)
+[2022-11-17 18:31:19.386] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:31:19.386] [INFO ] [restartedMain] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2022-11-17 18:31:19.386] [INFO ] [restartedMain] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-17 18:31:19.396] [INFO ] [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat-4].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2022-11-17 18:31:19.396] [INFO ] [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 158 ms
+[2022-11-17 18:31:19.417] [INFO ] [restartedMain] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 18:31:19.420] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-16 - Starting...
+[2022-11-17 18:31:19.420] [WARN ] [restartedMain] com.zaxxer.hikari.util.DriverDataSource Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[2022-11-17 18:31:19.431] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-16 - Start completed.
+[2022-11-17 18:31:19.431] [INFO ] [restartedMain] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[2022-11-17 18:31:19.562] [INFO ] [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 18:31:19.562] [INFO ] [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:31:19.636] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-17 18:31:19.670] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-11-17 18:31:19.683] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+[2022-11-17 18:31:19.688] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:31:19.689] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8111 (http) with context path ''
+[2022-11-17 18:31:19.692] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Started RestApiApplication in 0.473 seconds (JVM running for 3108.006)
+[2022-11-17 18:31:19.693] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+[2022-11-17 18:36:14.441] [INFO ] [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2022-11-17 18:36:14.471] [INFO ] [Thread-75] org.apache.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:36:14.471] [INFO ] [Thread-75] org.apache.catalina.core.StandardService Stopping service [Tomcat]
+[2022-11-17 18:36:14.476] [INFO ] [Thread-75] org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:36:14.478] [INFO ] [Thread-75] org.apache.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:36:14.480] [INFO ] [Thread-75] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:36:14.481] [INFO ] [Thread-75] com.zaxxer.hikari.HikariDataSource HikariPool-16 - Shutdown initiated...
+[2022-11-17 18:36:14.485] [INFO ] [Thread-75] com.zaxxer.hikari.HikariDataSource HikariPool-16 - Shutdown completed.
+[2022-11-17 18:36:14.553] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Starting RestApiApplication using Java 11.0.16.1 on DESKTOP-O08JD9T with PID 17036 (D:\Backend\RestApi_1114\RestApi\target\classes started by user1 in D:\Backend\RestApi_1114)
+[2022-11-17 18:36:14.553] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 18:36:14.651] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 18:36:14.657] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 6 ms. Found 2 JPA repository interfaces.
+[2022-11-17 18:36:14.699] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8111 (http)
+[2022-11-17 18:36:14.699] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:36:14.699] [INFO ] [restartedMain] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2022-11-17 18:36:14.699] [INFO ] [restartedMain] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-17 18:36:14.710] [INFO ] [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat-4].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2022-11-17 18:36:14.710] [INFO ] [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 156 ms
+[2022-11-17 18:36:14.728] [INFO ] [restartedMain] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 18:36:14.730] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-17 - Starting...
+[2022-11-17 18:36:14.730] [WARN ] [restartedMain] com.zaxxer.hikari.util.DriverDataSource Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[2022-11-17 18:36:14.740] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-17 - Start completed.
+[2022-11-17 18:36:14.740] [INFO ] [restartedMain] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[2022-11-17 18:36:14.797] [INFO ] [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 18:36:14.798] [INFO ] [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:36:14.853] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-17 18:36:14.891] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-11-17 18:36:14.906] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+[2022-11-17 18:36:14.912] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:36:14.914] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8111 (http) with context path ''
+[2022-11-17 18:36:14.917] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Started RestApiApplication in 0.38 seconds (JVM running for 3403.23)
+[2022-11-17 18:36:14.917] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+[2022-11-17 18:38:08.376] [INFO ] [http-nio-8111-exec-4] org.apache.catalina.core.ContainerBase.[Tomcat-4].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-11-17 18:38:08.377] [INFO ] [http-nio-8111-exec-4] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2022-11-17 18:38:08.378] [INFO ] [http-nio-8111-exec-4] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[2022-11-17 18:38:08.380] [INFO ] [http-nio-8111-exec-4] MemberController 회원 조회 아이디 : JKS2024
+[2022-11-17 18:39:55.919] [INFO ] [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[2022-11-17 18:39:55.949] [INFO ] [Thread-84] org.apache.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:39:55.949] [INFO ] [Thread-84] org.apache.catalina.core.StandardService Stopping service [Tomcat]
+[2022-11-17 18:39:55.951] [INFO ] [Thread-84] org.apache.catalina.core.ContainerBase.[Tomcat-4].[localhost].[/] Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2022-11-17 18:39:55.955] [INFO ] [Thread-84] org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:39:55.957] [INFO ] [Thread-84] org.apache.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:39:55.958] [INFO ] [Thread-84] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:39:55.959] [INFO ] [Thread-84] com.zaxxer.hikari.HikariDataSource HikariPool-17 - Shutdown initiated...
+[2022-11-17 18:39:55.962] [INFO ] [Thread-84] com.zaxxer.hikari.HikariDataSource HikariPool-17 - Shutdown completed.
+[2022-11-17 18:39:56.024] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Starting RestApiApplication using Java 11.0.16.1 on DESKTOP-O08JD9T with PID 17036 (D:\Backend\RestApi_1114\RestApi\target\classes started by user1 in D:\Backend\RestApi_1114)
+[2022-11-17 18:39:56.024] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 18:39:56.115] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 18:39:56.120] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 5 ms. Found 2 JPA repository interfaces.
+[2022-11-17 18:39:56.163] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8111 (http)
+[2022-11-17 18:39:56.163] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:39:56.164] [INFO ] [restartedMain] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2022-11-17 18:39:56.164] [INFO ] [restartedMain] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-17 18:39:56.173] [INFO ] [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat-4].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2022-11-17 18:39:56.173] [INFO ] [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 148 ms
+[2022-11-17 18:39:56.191] [INFO ] [restartedMain] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 18:39:56.194] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-18 - Starting...
+[2022-11-17 18:39:56.194] [WARN ] [restartedMain] com.zaxxer.hikari.util.DriverDataSource Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[2022-11-17 18:39:56.204] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-18 - Start completed.
+[2022-11-17 18:39:56.204] [INFO ] [restartedMain] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[2022-11-17 18:39:56.332] [INFO ] [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 18:39:56.333] [INFO ] [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:39:56.391] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-17 18:39:56.426] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-11-17 18:39:56.439] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+[2022-11-17 18:39:56.444] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:39:56.445] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8111 (http) with context path ''
+[2022-11-17 18:39:56.447] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Started RestApiApplication in 0.437 seconds (JVM running for 3624.76)
+[2022-11-17 18:39:56.448] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+[2022-11-17 18:40:11.099] [INFO ] [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[2022-11-17 18:40:11.155] [INFO ] [Thread-90] org.apache.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:40:11.155] [INFO ] [Thread-90] org.apache.catalina.core.StandardService Stopping service [Tomcat]
+[2022-11-17 18:40:11.162] [INFO ] [Thread-90] org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:40:11.165] [INFO ] [Thread-90] org.apache.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:40:11.166] [INFO ] [Thread-90] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:40:11.167] [INFO ] [Thread-90] com.zaxxer.hikari.HikariDataSource HikariPool-18 - Shutdown initiated...
+[2022-11-17 18:40:11.172] [INFO ] [Thread-90] com.zaxxer.hikari.HikariDataSource HikariPool-18 - Shutdown completed.
+[2022-11-17 18:40:11.249] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Starting RestApiApplication using Java 11.0.16.1 on DESKTOP-O08JD9T with PID 17036 (D:\Backend\RestApi_1114\RestApi\target\classes started by user1 in D:\Backend\RestApi_1114)
+[2022-11-17 18:40:11.249] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 18:40:11.340] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 18:40:11.345] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+[2022-11-17 18:40:11.383] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8111 (http)
+[2022-11-17 18:40:11.384] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:40:11.384] [INFO ] [restartedMain] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2022-11-17 18:40:11.384] [INFO ] [restartedMain] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-17 18:40:11.394] [INFO ] [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat-4].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2022-11-17 18:40:11.394] [INFO ] [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 144 ms
+[2022-11-17 18:40:11.409] [INFO ] [restartedMain] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 18:40:11.412] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-19 - Starting...
+[2022-11-17 18:40:11.412] [WARN ] [restartedMain] com.zaxxer.hikari.util.DriverDataSource Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[2022-11-17 18:40:11.421] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-19 - Start completed.
+[2022-11-17 18:40:11.421] [INFO ] [restartedMain] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[2022-11-17 18:40:11.621] [INFO ] [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 18:40:11.621] [INFO ] [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:40:11.678] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-17 18:40:11.710] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-11-17 18:40:11.722] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+[2022-11-17 18:40:11.727] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:40:11.728] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8111 (http) with context path ''
+[2022-11-17 18:40:11.731] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Started RestApiApplication in 0.502 seconds (JVM running for 3640.045)
+[2022-11-17 18:40:11.731] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+[2022-11-17 18:51:02.962] [INFO ] [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+[2022-11-17 18:51:02.992] [INFO ] [Thread-95] org.apache.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:51:02.992] [INFO ] [Thread-95] org.apache.catalina.core.StandardService Stopping service [Tomcat]
+[2022-11-17 18:51:02.997] [INFO ] [Thread-95] org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:51:03.000] [INFO ] [Thread-95] org.apache.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:51:03.002] [INFO ] [Thread-95] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:51:03.003] [INFO ] [Thread-95] com.zaxxer.hikari.HikariDataSource HikariPool-19 - Shutdown initiated...
+[2022-11-17 18:51:03.008] [INFO ] [Thread-95] com.zaxxer.hikari.HikariDataSource HikariPool-19 - Shutdown completed.
+[2022-11-17 18:51:03.090] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Starting RestApiApplication using Java 11.0.16.1 on DESKTOP-O08JD9T with PID 17036 (D:\Backend\RestApi_1114\RestApi\target\classes started by user1 in D:\Backend\RestApi_1114)
+[2022-11-17 18:51:03.090] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 18:51:03.227] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 18:51:03.232] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 5 ms. Found 2 JPA repository interfaces.
+[2022-11-17 18:51:03.278] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8111 (http)
+[2022-11-17 18:51:03.279] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:51:03.279] [INFO ] [restartedMain] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2022-11-17 18:51:03.279] [INFO ] [restartedMain] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-17 18:51:03.292] [INFO ] [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat-4].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2022-11-17 18:51:03.292] [INFO ] [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 201 ms
+[2022-11-17 18:51:03.314] [INFO ] [restartedMain] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 18:51:03.317] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-20 - Starting...
+[2022-11-17 18:51:03.317] [WARN ] [restartedMain] com.zaxxer.hikari.util.DriverDataSource Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[2022-11-17 18:51:03.341] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-20 - Start completed.
+[2022-11-17 18:51:03.341] [INFO ] [restartedMain] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[2022-11-17 18:51:03.533] [INFO ] [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 18:51:03.533] [INFO ] [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:51:03.582] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-17 18:51:03.624] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-11-17 18:51:03.655] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+[2022-11-17 18:51:03.661] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:51:03.663] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8111 (http) with context path ''
+[2022-11-17 18:51:03.665] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Started RestApiApplication in 0.602 seconds (JVM running for 4291.979)
+[2022-11-17 18:51:03.666] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+[2022-11-17 18:51:05.088] [INFO ] [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+[2022-11-17 18:51:05.118] [INFO ] [Thread-100] org.apache.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:51:05.118] [INFO ] [Thread-100] org.apache.catalina.core.StandardService Stopping service [Tomcat]
+[2022-11-17 18:51:05.124] [INFO ] [Thread-100] org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:51:05.127] [INFO ] [Thread-100] org.apache.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:51:05.129] [INFO ] [Thread-100] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:51:05.129] [INFO ] [Thread-100] com.zaxxer.hikari.HikariDataSource HikariPool-20 - Shutdown initiated...
+[2022-11-17 18:51:05.135] [INFO ] [Thread-100] com.zaxxer.hikari.HikariDataSource HikariPool-20 - Shutdown completed.
+[2022-11-17 18:51:05.201] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Starting RestApiApplication using Java 11.0.16.1 on DESKTOP-O08JD9T with PID 17036 (D:\Backend\RestApi_1114\RestApi\target\classes started by user1 in D:\Backend\RestApi_1114)
+[2022-11-17 18:51:05.202] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 18:51:05.304] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 18:51:05.308] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+[2022-11-17 18:51:05.355] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8111 (http)
+[2022-11-17 18:51:05.355] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:51:05.355] [INFO ] [restartedMain] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2022-11-17 18:51:05.355] [INFO ] [restartedMain] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-17 18:51:05.366] [INFO ] [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat-4].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2022-11-17 18:51:05.366] [INFO ] [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 163 ms
+[2022-11-17 18:51:05.387] [INFO ] [restartedMain] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 18:51:05.390] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-21 - Starting...
+[2022-11-17 18:51:05.390] [WARN ] [restartedMain] com.zaxxer.hikari.util.DriverDataSource Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[2022-11-17 18:51:05.401] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-21 - Start completed.
+[2022-11-17 18:51:05.401] [INFO ] [restartedMain] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[2022-11-17 18:51:05.722] [INFO ] [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 18:51:05.722] [INFO ] [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:51:05.786] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-17 18:51:05.823] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-11-17 18:51:05.839] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+[2022-11-17 18:51:05.845] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:51:05.846] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8111 (http) with context path ''
+[2022-11-17 18:51:05.849] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Started RestApiApplication in 0.664 seconds (JVM running for 4294.163)
+[2022-11-17 18:51:05.850] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+[2022-11-17 18:52:43.157] [INFO ] [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[2022-11-17 18:52:43.187] [INFO ] [Thread-105] org.apache.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:52:43.187] [INFO ] [Thread-105] org.apache.catalina.core.StandardService Stopping service [Tomcat]
+[2022-11-17 18:52:43.192] [INFO ] [Thread-105] org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:52:43.194] [INFO ] [Thread-105] org.apache.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:52:43.195] [INFO ] [Thread-105] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:52:43.196] [INFO ] [Thread-105] com.zaxxer.hikari.HikariDataSource HikariPool-21 - Shutdown initiated...
+[2022-11-17 18:52:43.200] [INFO ] [Thread-105] com.zaxxer.hikari.HikariDataSource HikariPool-21 - Shutdown completed.
+[2022-11-17 18:52:43.270] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Starting RestApiApplication using Java 11.0.16.1 on DESKTOP-O08JD9T with PID 17036 (D:\Backend\RestApi_1114\RestApi\target\classes started by user1 in D:\Backend\RestApi_1114)
+[2022-11-17 18:52:43.271] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 18:52:43.373] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 18:52:43.377] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+[2022-11-17 18:52:43.423] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8111 (http)
+[2022-11-17 18:52:43.423] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:52:43.423] [INFO ] [restartedMain] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2022-11-17 18:52:43.423] [INFO ] [restartedMain] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-17 18:52:43.434] [INFO ] [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat-4].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2022-11-17 18:52:43.434] [INFO ] [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 162 ms
+[2022-11-17 18:52:43.451] [INFO ] [restartedMain] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 18:52:43.453] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-22 - Starting...
+[2022-11-17 18:52:43.453] [WARN ] [restartedMain] com.zaxxer.hikari.util.DriverDataSource Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[2022-11-17 18:52:43.463] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-22 - Start completed.
+[2022-11-17 18:52:43.464] [INFO ] [restartedMain] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[2022-11-17 18:52:43.840] [INFO ] [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 18:52:43.841] [INFO ] [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:52:43.893] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-17 18:52:43.927] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-11-17 18:52:43.941] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+[2022-11-17 18:52:43.946] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:52:43.946] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8111 (http) with context path ''
+[2022-11-17 18:52:43.949] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Started RestApiApplication in 0.696 seconds (JVM running for 4392.263)
+[2022-11-17 18:52:43.950] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+[2022-11-17 18:59:20.177] [INFO ] [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[2022-11-17 18:59:20.191] [INFO ] [Thread-110] org.apache.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:59:20.191] [INFO ] [Thread-110] org.apache.catalina.core.StandardService Stopping service [Tomcat]
+[2022-11-17 18:59:20.194] [INFO ] [Thread-110] org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:59:20.196] [INFO ] [Thread-110] org.apache.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:59:20.198] [INFO ] [Thread-110] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:59:20.198] [INFO ] [Thread-110] com.zaxxer.hikari.HikariDataSource HikariPool-22 - Shutdown initiated...
+[2022-11-17 18:59:20.204] [INFO ] [Thread-110] com.zaxxer.hikari.HikariDataSource HikariPool-22 - Shutdown completed.
+[2022-11-17 18:59:20.271] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Starting RestApiApplication using Java 11.0.16.1 on DESKTOP-O08JD9T with PID 17036 (D:\Backend\RestApi_1114\RestApi\target\classes started by user1 in D:\Backend\RestApi_1114)
+[2022-11-17 18:59:20.271] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 18:59:20.372] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 18:59:20.377] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+[2022-11-17 18:59:20.427] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8111 (http)
+[2022-11-17 18:59:20.427] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:59:20.427] [INFO ] [restartedMain] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2022-11-17 18:59:20.427] [INFO ] [restartedMain] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-17 18:59:20.438] [INFO ] [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat-4].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2022-11-17 18:59:20.438] [INFO ] [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 165 ms
+[2022-11-17 18:59:20.461] [INFO ] [restartedMain] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 18:59:20.464] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-23 - Starting...
+[2022-11-17 18:59:20.464] [WARN ] [restartedMain] com.zaxxer.hikari.util.DriverDataSource Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[2022-11-17 18:59:20.475] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-23 - Start completed.
+[2022-11-17 18:59:20.475] [INFO ] [restartedMain] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[2022-11-17 18:59:20.663] [INFO ] [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 18:59:20.663] [INFO ] [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:59:20.723] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-17 18:59:20.762] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-11-17 18:59:20.778] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+[2022-11-17 18:59:20.784] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:59:20.785] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8111 (http) with context path ''
+[2022-11-17 18:59:20.789] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Started RestApiApplication in 0.534 seconds (JVM running for 4789.102)
+[2022-11-17 18:59:20.790] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+[2022-11-17 18:59:22.201] [INFO ] [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[2022-11-17 18:59:22.231] [INFO ] [Thread-115] org.apache.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:59:22.231] [INFO ] [Thread-115] org.apache.catalina.core.StandardService Stopping service [Tomcat]
+[2022-11-17 18:59:22.237] [INFO ] [Thread-115] org.apache.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:59:22.240] [INFO ] [Thread-115] org.apache.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:59:22.241] [INFO ] [Thread-115] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:59:22.242] [INFO ] [Thread-115] com.zaxxer.hikari.HikariDataSource HikariPool-23 - Shutdown initiated...
+[2022-11-17 18:59:22.245] [INFO ] [Thread-115] com.zaxxer.hikari.HikariDataSource HikariPool-23 - Shutdown completed.
+[2022-11-17 18:59:22.309] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Starting RestApiApplication using Java 11.0.16.1 on DESKTOP-O08JD9T with PID 17036 (D:\Backend\RestApi_1114\RestApi\target\classes started by user1 in D:\Backend\RestApi_1114)
+[2022-11-17 18:59:22.309] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication No active profile set, falling back to 1 default profile: "default"
+[2022-11-17 18:59:22.394] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-11-17 18:59:22.399] [INFO ] [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 5 ms. Found 2 JPA repository interfaces.
+[2022-11-17 18:59:22.445] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8111 (http)
+[2022-11-17 18:59:22.445] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:59:22.445] [INFO ] [restartedMain] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2022-11-17 18:59:22.446] [INFO ] [restartedMain] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-11-17 18:59:22.456] [INFO ] [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat-4].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2022-11-17 18:59:22.456] [INFO ] [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 146 ms
+[2022-11-17 18:59:22.472] [INFO ] [restartedMain] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-11-17 18:59:22.475] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-24 - Starting...
+[2022-11-17 18:59:22.475] [WARN ] [restartedMain] com.zaxxer.hikari.util.DriverDataSource Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[2022-11-17 18:59:22.485] [INFO ] [restartedMain] com.zaxxer.hikari.HikariDataSource HikariPool-24 - Start completed.
+[2022-11-17 18:59:22.485] [INFO ] [restartedMain] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[2022-11-17 18:59:22.642] [INFO ] [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-11-17 18:59:22.642] [INFO ] [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-11-17 18:59:22.716] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-11-17 18:59:22.760] [WARN ] [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-11-17 18:59:22.774] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729
+[2022-11-17 18:59:22.779] [INFO ] [restartedMain] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8111"]
+[2022-11-17 18:59:22.781] [INFO ] [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8111 (http) with context path ''
+[2022-11-17 18:59:22.784] [INFO ] [restartedMain] com.kh.RestApi.RestApiApplication Started RestApiApplication in 0.489 seconds (JVM running for 4791.098)
+[2022-11-17 18:59:22.785] [INFO ] [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged

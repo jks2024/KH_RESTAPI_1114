@@ -1,6 +1,7 @@
 package com.kh.RestApi.controller;
 import com.kh.RestApi.service.MemberService;
 import com.kh.RestApi.vo.MemberVO;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
@@ -12,8 +13,8 @@ import java.util.Map;
 
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
+@Slf4j
 public class MemberController {
-    private final Logger LOGGER = LoggerFactory.getLogger(this.getClass().getSimpleName());
     // Service 로직 연결
     private MemberService memberService;
     public  MemberController(MemberService memberService) {
@@ -22,19 +23,17 @@ public class MemberController {
 
     @GetMapping("/GetMember")
     public ResponseEntity <List<MemberVO>> memberList(@RequestParam String userId) {
-        LOGGER.info("회원 조회 아이디 : " + userId);
+        log.info("회원 조회 아이디 : " + userId);
         List<MemberVO> list = memberService.getMemberList(userId);
         return new ResponseEntity<>(list, HttpStatus.OK);
     }
 
     @PostMapping("/Login")
-    public Map<String, String> memberLogin(@RequestBody Map<String, String> loginData) {
-        String getId = loginData.get("id");
+    public ResponseEntity<Boolean> memberLogin(@RequestBody Map<String, String> loginData) {
+        String getUser = loginData.get("user");
         String getPwd = loginData.get("pwd");
-        LOGGER.info("Login Controller Call !!!!");
-        Map<String, String> map = new HashMap<>();
 
-        return map;
+        return new ResponseEntity<>(true, HttpStatus.OK);
     }
     @PostMapping("MemberCheck")
     public ResponseEntity<Map<String, String>> memberCheck(@RequestBody Map<String, String> chkData) {
