@@ -54,7 +54,7 @@ public class GetController {
         List<MemberVO> list = new ArrayList<>();
         for(int i = 0; i < 10; i++) {
             MemberVO vo = new MemberVO();
-            vo.setId("jks2024");
+            vo.setUser("JKS2024");
             vo.setPwd("sphb8250");
             vo.setName("곰돌이사육사");
             vo.setEmail("jks2024@gmail.com");
@@ -68,7 +68,7 @@ public class GetController {
         List<MemberVO> list = new ArrayList<>();
         for(int i = 0; i < 10; i++) {
             MemberVO vo = new MemberVO();
-            vo.setId("jks2024");
+            vo.setUser("JKS2024");
             vo.setPwd("sphb8250");
             vo.setName("곰돌이사육사");
             vo.setEmail("jks2024@gmail.com");
