@@ -6,6 +6,7 @@ import com.kh.RestApi.vo.MemberVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,7 +35,23 @@ public class MemberService {
     }
     // 로그인 체크
     public boolean getLoginCheck(String userId, String pwd) {
+        List<MemberInfo> memberInfoList = memberRepository.findByUserIdAndPwd(userId, pwd);
+        for(MemberInfo info : memberInfoList) {
+            return true;
+        }
+        return false;
+    }
 
+    // 회원 가입
+    public boolean regMember(String userId, String pwd, String name, String mail) {
+        MemberInfo memberInfo = new MemberInfo();
+        memberInfo.setUserId(userId);
+        memberInfo.setPwd(pwd);
+        memberInfo.setName(name);
+        memberInfo.setEmail(mail);
+        memberInfo.setJoin(LocalDateTime.now());
+        MemberInfo rst = memberRepository.save(memberInfo);
+        log.warn(rst.toString());
         return true;
     }
 }

@@ -46,5 +46,15 @@ class MemberRepositoryTest {
             log.warn(info.toString());
         }
     }
+    @Test
+    @DisplayName("로그인 체크")
+    public void findByUserIdAndPwdTest() {
+        this.regMemberTest();
+        List<MemberInfo> memberInfoList = memberRepository.findByUserIdAndPwd("JKS20241", "SPHB8250");
+        for(MemberInfo info : memberInfoList) {
+            log.warn("RESULT TRUE : " + info.toString());
+        }
+        log.warn("RESULT FALSE");
+    }
 
 }

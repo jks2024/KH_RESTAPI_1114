@@ -2,12 +2,9 @@ package com.kh.RestApi.controller;
 import com.kh.RestApi.service.MemberService;
 import com.kh.RestApi.vo.MemberVO;
 import lombok.extern.slf4j.Slf4j;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -21,38 +18,43 @@ public class MemberController {
         this.memberService = memberService;
     }
 
+    // 개별 회원 조회
     @GetMapping("/GetMember")
     public ResponseEntity <List<MemberVO>> memberList(@RequestParam String userId) {
-        log.info("회원 조회 아이디 : " + userId);
         List<MemberVO> list = memberService.getMemberList(userId);
         return new ResponseEntity<>(list, HttpStatus.OK);
     }
 
+    // 로그인 체크
     @PostMapping("/Login")
     public ResponseEntity<Boolean> memberLogin(@RequestBody Map<String, String> loginData) {
         String getUser = loginData.get("user");
         String getPwd = loginData.get("pwd");
-
-        return new ResponseEntity<>(true, HttpStatus.OK);
-    }
-    @PostMapping("MemberCheck")
-    public ResponseEntity<Map<String, String>> memberCheck(@RequestBody Map<String, String> chkData) {
-        String getId = chkData.get("id");
-        Map<String, String> map = new HashMap<>();
-        map.put("result", "OK");
-        return new ResponseEntity(map, HttpStatus.OK);
+        boolean result = memberService.getLoginCheck(getUser, getPwd);
+        if(result) {
+            return new ResponseEntity<>(true, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(true, HttpStatus.BAD_REQUEST);
+        }
     }
 
+//    @PostMapping("MemberCheck")
+//    public ResponseEntity<Map<String, String>> memberCheck(@RequestBody Map<String, String> chkData) {
+//    }
+
+    // 회원 가입
     @PostMapping("/RegMember")
     public ResponseEntity<Map<String, String>> memberRegister(@RequestBody Map<String, String> regData) {
-        String getId = regData.get("id");
+        String getUserId = regData.get("user");
         String getPwd = regData.get("pwd");
         String getName = regData.get("name");
         String getMail = regData.get("mail");
-
-        Map<String, String> map = new HashMap<>();
-        map.put("result", "OK");
-        return new ResponseEntity(map, HttpStatus.OK);
+        boolean result = memberService.regMember(getUserId, getPwd, getName, getMail);
+        if(result) {
+            return new ResponseEntity(true, HttpStatus.OK);
+        } else {
+            return new ResponseEntity(false, HttpStatus.BAD_REQUEST);
+        }
     }
 
 }
