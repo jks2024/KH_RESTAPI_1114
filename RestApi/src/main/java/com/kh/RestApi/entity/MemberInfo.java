@@ -8,8 +8,6 @@ import java.time.LocalDateTime;
 @Table(name="member_info")
 public class MemberInfo {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
     private String userId;
     private String pwd;
     private String name;

@@ -41,6 +41,14 @@ public class MemberService {
             memberDTO.setGrade("VIP");
             memberDTOS.add(memberDTO);
         }
+        return memberDTOS;
+    }
+    // 로그인 체크
+    public boolean loginCheck(String userId, String pwd) {
+        List<MemberInfo> memberInfoList = memberRepository.findByUserIdAndPwd(userId, pwd);
+        for(MemberInfo info : memberInfoList) {
+            return true;
+        }
         return false;
     }
 
