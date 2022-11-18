@@ -5,6 +5,9 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
 import java.time.LocalDateTime;
 
@@ -16,6 +19,9 @@ class CartRepositoryTest {
 
     @Autowired
     MemberRepository memberRepository;
+
+    @PersistenceContext
+    EntityManager em;
 
     public MemberInfo createMemberInfo() {
         MemberInfo memberInfo = new MemberInfo();
