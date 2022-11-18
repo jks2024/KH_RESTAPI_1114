@@ -41,9 +41,10 @@ public class MemberService {
             memberDTO.setGrade("VIP");
             memberDTOS.add(memberDTO);
         }
-        return memberDTOS;
+        return false;
     }
 
+    // 회원 가입
     public boolean regMember(String userId, String pwd, String name, String mail) {
         MemberInfo memberInfo = new MemberInfo();
         memberInfo.setUserId(userId);
@@ -54,12 +55,5 @@ public class MemberService {
         MemberInfo rst = memberRepository.save(memberInfo);
         log.warn(rst.toString());
         return true;
-    }
-    public boolean loginCheck(String user, String pwd) {
-        List<MemberInfo>  memberInfoList = memberRepository.findByUserIdAndPwd(user, pwd);
-        for(MemberInfo e : memberInfoList) {
-            return true;
-        }
-        return false;
     }
 }
