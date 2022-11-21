@@ -5,12 +5,15 @@ import java.time.LocalDateTime;
 
 @Data
 @Entity
-@Table(name="member_info")
-public class MemberInfo {
+@Table(name="member")
+public class Member {
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long memberId;
     private String userId;
     private String pwd;
     private String name;
-    private String email;
-    private LocalDateTime join;
+    @Column(unique = true)
+    private String eMail;
+    private LocalDateTime regData;
 }

@@ -3,7 +3,6 @@ package com.kh.RestApi.entity;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-
 import javax.persistence.*;
 
 @Entity
@@ -14,8 +13,7 @@ public class Cart {
     @Column(name = "cart_id")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
-    @OneToOne
-    @JoinColumn(name="user_id")
-    private MemberInfo memberInfo;
+    @OneToOne // Member 엔티티와 일대일 매핑
+    @JoinColumn(name = "member_id") // 매핑할 외래키 지정
+    private Member member;
 }

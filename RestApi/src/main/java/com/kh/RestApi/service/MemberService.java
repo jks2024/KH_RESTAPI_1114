@@ -1,6 +1,6 @@
 package com.kh.RestApi.service;
 import com.kh.RestApi.dao.MemberRepository;
-import com.kh.RestApi.entity.MemberInfo;
+import com.kh.RestApi.entity.Member;
 import com.kh.RestApi.vo.MemberDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -17,13 +17,13 @@ public class MemberService {
     }
     public List<MemberDTO> getMemberList() {
         List<MemberDTO> memberDTOS = new ArrayList<>();
-        List<MemberInfo> memberInfoList = memberRepository.findAll();
-        for(MemberInfo e : memberInfoList) {
+        List<Member> memberList = memberRepository.findAll();
+        for(Member e : memberList) {
             MemberDTO memberDTO = new MemberDTO();
             memberDTO.setUser(e.getUserId());
             memberDTO.setPwd(e.getPwd());
             memberDTO.setName(e.getName());
-            memberDTO.setEmail(e.getEmail());
+            memberDTO.setEmail(e.getEMail());
             memberDTO.setGrade("VIP");
             memberDTOS.add(memberDTO);
         }
@@ -31,13 +31,13 @@ public class MemberService {
     }
     public List<MemberDTO> getMemberList(String user) {
         List<MemberDTO> memberDTOS = new ArrayList<>();
-        List<MemberInfo> memberInfoList = memberRepository.findByUserId(user);
-        for(MemberInfo e : memberInfoList) {
+        List<Member> memberList = memberRepository.findByUserId(user);
+        for(Member e : memberList) {
             MemberDTO memberDTO = new MemberDTO();
             memberDTO.setUser(e.getUserId());
             memberDTO.setPwd(e.getPwd());
             memberDTO.setName(e.getName());
-            memberDTO.setEmail(e.getEmail());
+            memberDTO.setEmail(e.getEMail());
             memberDTO.setGrade("VIP");
             memberDTOS.add(memberDTO);
         }
@@ -45,8 +45,8 @@ public class MemberService {
     }
     // 로그인 체크
     public boolean loginCheck(String userId, String pwd) {
-        List<MemberInfo> memberInfoList = memberRepository.findByUserIdAndPwd(userId, pwd);
-        for(MemberInfo info : memberInfoList) {
+        List<Member> memberList = memberRepository.findByUserIdAndPwd(userId, pwd);
+        for(Member info : memberList) {
             return true;
         }
         return false;
@@ -54,13 +54,13 @@ public class MemberService {
 
     // 회원 가입
     public boolean regMember(String userId, String pwd, String name, String mail) {
-        MemberInfo memberInfo = new MemberInfo();
-        memberInfo.setUserId(userId);
-        memberInfo.setPwd(pwd);
-        memberInfo.setName(name);
-        memberInfo.setEmail(mail);
-        memberInfo.setJoin(LocalDateTime.now());
-        MemberInfo rst = memberRepository.save(memberInfo);
+        Member member = new Member();
+        member.setUserId(userId);
+        member.setPwd(pwd);
+        member.setName(name);
+        member.setEMail(mail);
+        member.setRegData(LocalDateTime.now());
+        Member rst = memberRepository.save(member);
         log.warn(rst.toString());
         return true;
     }
