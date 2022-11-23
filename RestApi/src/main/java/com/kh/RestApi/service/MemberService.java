@@ -29,19 +29,15 @@ public class MemberService {
         }
         return memberDTOS;
     }
-    public List<MemberDTO> getMemberList(String user) {
-        List<MemberDTO> memberDTOS = new ArrayList<>();
-        List<Member> memberList = memberRepository.findByUserId(user);
-        for(Member e : memberList) {
-            MemberDTO memberDTO = new MemberDTO();
-            memberDTO.setUser(e.getUserId());
-            memberDTO.setPwd(e.getPwd());
-            memberDTO.setName(e.getName());
-            memberDTO.setEmail(e.getEMail());
-            memberDTO.setGrade("VIP");
-            memberDTOS.add(memberDTO);
-        }
-        return memberDTOS;
+    public MemberDTO getMemberList(String user) {
+        Member member = memberRepository.findByUserId(user);
+        MemberDTO memberDTO = new MemberDTO();
+        memberDTO.setUser(member.getUserId());
+        memberDTO.setPwd(member.getPwd());
+        memberDTO.setName(member.getName());
+        memberDTO.setEmail(member.getEMail());
+        memberDTO.setGrade("VIP");
+        return memberDTO;
     }
     // 로그인 체크
     public boolean loginCheck(String userId, String pwd) {

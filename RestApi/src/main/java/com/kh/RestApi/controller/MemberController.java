@@ -23,8 +23,8 @@ public class MemberController {
     // userId로 회원 조회 하기
     @GetMapping("/GetMember")
     public ResponseEntity<List<MemberDTO>> memberList(@RequestParam String userId) {
-        List<MemberDTO> list = memberService.getMemberList(userId);
-        return new ResponseEntity(list, HttpStatus.OK);
+        MemberDTO memberDTO = memberService.getMemberList(userId);
+        return new ResponseEntity(memberDTO, HttpStatus.OK);
     }
 
     // 로그인 체크
@@ -39,4 +39,19 @@ public class MemberController {
             return new ResponseEntity(false, HttpStatus.BAD_REQUEST);
         }
     }
+    // 회원 가입
+    @PostMapping("/reg-member")
+    public ResponseEntity<Map<String, String>> memberRegister(@RequestBody Map<String, String> regData) {
+        String getUserId = regData.get("user");
+        String getPwd = regData.get("pwd");
+        String getName = regData.get("name");
+        String getMail = regData.get("mail");
+        boolean result = memberService.regMember(getUserId, getPwd, getName, getMail);
+        if(result) {
+            return new ResponseEntity(true, HttpStatus.OK);
+        } else {
+            return new ResponseEntity(false, HttpStatus.BAD_REQUEST);
+        }
+    }
+
 }

@@ -4,6 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 import javax.persistence.*;
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name="item")
@@ -24,4 +25,6 @@ public class Item {
     private String itemDetail; // 상품의 상세 설명
     @Enumerated(EnumType.STRING)
     private ItemSellStatus itemSellStatus;
+    private LocalDateTime regTime; // 등록 시간
+    private LocalDateTime updateTime; // 수정 시간
 }
